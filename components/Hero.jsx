@@ -22,7 +22,7 @@ export default function Hero() {
       >
 
         <motion.h1
-          className="font-nunito font-bold text-5xl text-left text-gray-800 leading-15 mb-6"
+          className="font-nunito font-bold text-5xl md:text-7xl md:leading-25 text-left text-gray-800 leading-15 mb-6"
           variants={{
             hidden: { opacity: 0, y: 60 },
             visible: { opacity: 1, y: 0 }
@@ -33,7 +33,7 @@ export default function Hero() {
         </motion.h1>
 
         <motion.p
-          className="mb-6 font-nunito font-semibold text-left text-gray-800"
+          className="mb-6 font-nunito font-semibold md:text-xl text-lg text-left text-gray-800"
           variants={{
             hidden: { opacity: 0, y: 30 },
             visible: { opacity: 1, y: 0 }
