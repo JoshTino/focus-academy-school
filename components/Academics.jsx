@@ -26,7 +26,7 @@ const programs = [
 
 export default function Academics(){
   return(
-    <section id="academics" className="py-20 px-4">
+    <section id="academics" className="pb-20 pt-9 px-4">
 
       <div className="max-w-6xl mx-auto md:px-4">
 
