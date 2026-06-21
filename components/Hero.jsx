@@ -40,7 +40,7 @@ export default function Hero() {
           }}
           transition={{ duration: 0.6 }}
         >
-          Upholding excellence and nobility.
+          {school.motto}
         </motion.p>
 
       </motion.div>
